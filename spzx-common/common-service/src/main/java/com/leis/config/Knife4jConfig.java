@@ -11,10 +11,10 @@ import org.springframework.context.annotation.Configuration;
 public class Knife4jConfig {
 
     @Bean
-    public GroupedOpenApi adminApi(){
+    public GroupedOpenApi adminApi() {      // 创建了一个api接口的分组
         return GroupedOpenApi.builder()
-                .group("admin-api")
-                .pathsToMatch("/admin/**")
+                .group("admin-api")         // 分组名称
+                .pathsToMatch("/admin/**")  // 接口请求路径规则
                 .build();
     }
 
