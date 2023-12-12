@@ -10,13 +10,13 @@ import io.swagger.v3.oas.annotations.parameters.RequestBody;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
+
 @RestController
 @RequestMapping(value = "/admin/product/productSpec")
 public class ProductSpecController {
-
     @Autowired
     private IProductSpecService productSpecService;
-
 
     @GetMapping("/{page}/{limit}")
     public Result<PageInfo<ProductSpec>> findByPage(@PathVariable Integer page, @PathVariable Integer limit) {
@@ -40,6 +40,12 @@ public class ProductSpecController {
     public Result deleteById(@PathVariable Long id) {
         productSpecService.deleteById(id);
         return Result.build(null, ResultCodeEnum.SUCCESS);
+    }
+
+    @GetMapping("findAll")
+    public Result findAll() {
+        List<ProductSpec> list = productSpecService.findAll();
+        return Result.build(list, ResultCodeEnum.SUCCESS);
     }
 
 }

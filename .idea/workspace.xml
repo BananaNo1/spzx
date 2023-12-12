@@ -5,28 +5,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dbc139f0-a06a-4b0f-9c8c-bac02afc7dea" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/spzx-manager/src/main/java/com/leis/controller/CategoryBrandController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spzx-manager/src/main/java/com/leis/controller/ProductSpecController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spzx-manager/src/main/java/com/leis/mapper/CategoryBrandMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spzx-manager/src/main/java/com/leis/mapper/ProductSpecMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spzx-manager/src/main/java/com/leis/service/ICategoryBrandService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spzx-manager/src/main/java/com/leis/service/IProductSpecService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spzx-manager/src/main/java/com/leis/service/impl/CategoryBrandServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spzx-manager/src/main/java/com/leis/service/impl/ProductSpecServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spzx-manager/src/main/resources/mapper/product/CategoryBrandMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spzx-manager/src/main/resources/mapper/product/ProductSpecMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spzx-manager/src/main/java/com/leis/controller/OrderInfoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spzx-manager/src/main/java/com/leis/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spzx-manager/src/main/java/com/leis/controller/ProductUnitController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spzx-manager/src/main/java/com/leis/mapper/OrderInfoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spzx-manager/src/main/java/com/leis/mapper/OrderStatisticsMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spzx-manager/src/main/java/com/leis/mapper/ProductDetailsMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spzx-manager/src/main/java/com/leis/mapper/ProductMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spzx-manager/src/main/java/com/leis/mapper/ProductSkuMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spzx-manager/src/main/java/com/leis/mapper/ProductUnitMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spzx-manager/src/main/java/com/leis/service/IOrderInfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spzx-manager/src/main/java/com/leis/service/IProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spzx-manager/src/main/java/com/leis/service/IProductUnitService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spzx-manager/src/main/java/com/leis/service/impl/OrderInfoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spzx-manager/src/main/java/com/leis/service/impl/ProductServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spzx-manager/src/main/java/com/leis/service/impl/ProductUnitServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spzx-manager/src/main/java/com/leis/task/OrderStatisticsTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spzx-manager/src/main/resources/mapper/order/OrderInfoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spzx-manager/src/main/resources/mapper/order/OrderStatisticsMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spzx-manager/src/main/resources/mapper/product/ProductDetailsMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spzx-manager/src/main/resources/mapper/product/ProductMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spzx-manager/src/main/resources/mapper/product/ProductSkuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spzx-manager/src/main/resources/mapper/product/ProductUnitMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spzx-manager/src/main/java/com/leis/controller/BrandController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-manager/src/main/java/com/leis/controller/BrandController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spzx-manager/src/main/java/com/leis/controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-manager/src/main/java/com/leis/controller/CategoryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spzx-manager/src/main/java/com/leis/listener/ExcelListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-manager/src/main/java/com/leis/listener/ExcelListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spzx-manager/src/main/java/com/leis/mapper/BrandMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-manager/src/main/java/com/leis/mapper/BrandMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spzx-manager/src/main/java/com/leis/mapper/CategoryMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-manager/src/main/java/com/leis/mapper/CategoryMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spzx-manager/src/main/java/com/leis/service/IBrandService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-manager/src/main/java/com/leis/service/IBrandService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spzx-manager/src/main/java/com/leis/service/ICategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-manager/src/main/java/com/leis/service/ICategoryService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spzx-manager/src/main/java/com/leis/service/impl/BrandServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-manager/src/main/java/com/leis/service/impl/BrandServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spzx-manager/src/main/java/com/leis/service/impl/CategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-manager/src/main/java/com/leis/service/impl/CategoryServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spzx-manager/src/main/resources/mapper/brand/BrandMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-manager/src/main/resources/mapper/brand/BrandMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spzx-manager/src/main/resources/mapper/category/CategoryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-manager/src/main/resources/mapper/category/CategoryMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-manager/src/main/java/com/leis/controller/CategoryBrandController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-manager/src/main/java/com/leis/controller/CategoryBrandController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-manager/src/main/java/com/leis/controller/ProductSpecController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-manager/src/main/java/com/leis/controller/ProductSpecController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-manager/src/main/java/com/leis/mapper/CategoryBrandMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-manager/src/main/java/com/leis/mapper/CategoryBrandMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-manager/src/main/java/com/leis/mapper/ProductSpecMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-manager/src/main/java/com/leis/mapper/ProductSpecMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-manager/src/main/java/com/leis/service/ICategoryBrandService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-manager/src/main/java/com/leis/service/ICategoryBrandService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-manager/src/main/java/com/leis/service/IProductSpecService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-manager/src/main/java/com/leis/service/IProductSpecService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-manager/src/main/java/com/leis/service/impl/CategoryBrandServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-manager/src/main/java/com/leis/service/impl/CategoryBrandServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-manager/src/main/java/com/leis/service/impl/ProductSpecServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-manager/src/main/java/com/leis/service/impl/ProductSpecServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-manager/src/main/resources/mapper/product/CategoryBrandMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-manager/src/main/resources/mapper/product/CategoryBrandMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-manager/src/main/resources/mapper/product/ProductSpecMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-manager/src/main/resources/mapper/product/ProductSpecMapper.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,7 +168,7 @@
       <workItem from="1701746101054" duration="1207000" />
       <workItem from="1701917680854" duration="13041000" />
       <workItem from="1702000937363" duration="5542000" />
-      <workItem from="1702258695667" duration="26821000" />
+      <workItem from="1702258695667" duration="29912000" />
     </task>
     <servers />
   </component>

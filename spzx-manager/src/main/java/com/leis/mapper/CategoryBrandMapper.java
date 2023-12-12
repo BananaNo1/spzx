@@ -1,6 +1,7 @@
 package com.leis.mapper;
 
 import com.leis.model.dto.product.CategoryBrandDto;
+import com.leis.model.entity.product.Brand;
 import com.leis.model.entity.product.CategoryBrand;
 import org.apache.ibatis.annotations.Mapper;
 
@@ -16,4 +17,6 @@ public interface CategoryBrandMapper {
     void updateById(CategoryBrand categoryBrand);
 
     void deleteById(Long id);
+
+    List<Brand> findBrandByCategoryId(Long categoryId);
 }

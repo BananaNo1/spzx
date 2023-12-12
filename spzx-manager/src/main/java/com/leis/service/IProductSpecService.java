@@ -4,6 +4,8 @@ package com.leis.service;
 import com.github.pagehelper.PageInfo;
 import com.leis.model.entity.product.ProductSpec;
 
+import java.util.List;
+
 public interface IProductSpecService {
     PageInfo<ProductSpec> findByPage(Integer page, Integer limit);
 
@@ -12,4 +14,6 @@ public interface IProductSpecService {
     void updateById(ProductSpec productSpec);
 
     void deleteById(Long id);
+
+    List<ProductSpec> findAll();
 }
