@@ -10,6 +10,7 @@
         <module name="spzx-model" />
         <module name="common-util" />
         <module name="common-service" />
+        <module name="service-product" />
         <module name="spzx-manager" />
       </profile>
     </annotationProcessing>
@@ -18,10 +19,12 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="common-service" options="-parameters" />
       <module name="common-util" options="-parameters" />
+      <module name="service-product" options="-parameters" />
       <module name="spzx" options="" />
       <module name="spzx-common" options="" />
       <module name="spzx-manager" options="-parameters" />
       <module name="spzx-model" options="-parameters" />
+      <module name="spzx-serivce" options="" />
     </option>
   </component>
 </project>

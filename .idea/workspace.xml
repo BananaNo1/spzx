@@ -5,39 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dbc139f0-a06a-4b0f-9c8c-bac02afc7dea" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/spzx-manager/src/main/java/com/leis/controller/OrderInfoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spzx-manager/src/main/java/com/leis/controller/ProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spzx-manager/src/main/java/com/leis/controller/ProductUnitController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spzx-manager/src/main/java/com/leis/mapper/OrderInfoMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spzx-manager/src/main/java/com/leis/mapper/OrderStatisticsMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spzx-manager/src/main/java/com/leis/mapper/ProductDetailsMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spzx-manager/src/main/java/com/leis/mapper/ProductMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spzx-manager/src/main/java/com/leis/mapper/ProductSkuMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spzx-manager/src/main/java/com/leis/mapper/ProductUnitMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spzx-manager/src/main/java/com/leis/service/IOrderInfoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spzx-manager/src/main/java/com/leis/service/IProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spzx-manager/src/main/java/com/leis/service/IProductUnitService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spzx-manager/src/main/java/com/leis/service/impl/OrderInfoServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spzx-manager/src/main/java/com/leis/service/impl/ProductServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spzx-manager/src/main/java/com/leis/service/impl/ProductUnitServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spzx-manager/src/main/java/com/leis/task/OrderStatisticsTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spzx-manager/src/main/resources/mapper/order/OrderInfoMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spzx-manager/src/main/resources/mapper/order/OrderStatisticsMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spzx-manager/src/main/resources/mapper/product/ProductDetailsMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spzx-manager/src/main/resources/mapper/product/ProductMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spzx-manager/src/main/resources/mapper/product/ProductSkuMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spzx-manager/src/main/resources/mapper/product/ProductUnitMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spzx-serivce/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spzx-serivce/service-product/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spzx-serivce/service-product/src/main/java/com/product/ProductApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spzx-serivce/service-product/src/main/java/com/product/controller/IndexController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spzx-serivce/service-product/src/main/java/com/product/mapper/CategoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spzx-serivce/service-product/src/main/java/com/product/mapper/ProductSkuMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spzx-serivce/service-product/src/main/java/com/product/service/ICategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spzx-serivce/service-product/src/main/java/com/product/service/IProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spzx-serivce/service-product/src/main/java/com/product/service/impl/CategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spzx-serivce/service-product/src/main/java/com/product/service/impl/ProductServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spzx-serivce/service-product/src/main/resources/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spzx-serivce/service-product/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spzx-serivce/service-product/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spzx-serivce/service-product/src/main/resources/mapper/CategoryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spzx-serivce/service-product/src/main/resources/mapper/ProductSkuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spzx-serivce/service-product/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spzx-manager/src/main/java/com/leis/controller/CategoryBrandController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-manager/src/main/java/com/leis/controller/CategoryBrandController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spzx-manager/src/main/java/com/leis/controller/ProductSpecController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-manager/src/main/java/com/leis/controller/ProductSpecController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spzx-manager/src/main/java/com/leis/mapper/CategoryBrandMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-manager/src/main/java/com/leis/mapper/CategoryBrandMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spzx-manager/src/main/java/com/leis/mapper/ProductSpecMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-manager/src/main/java/com/leis/mapper/ProductSpecMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spzx-manager/src/main/java/com/leis/service/ICategoryBrandService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-manager/src/main/java/com/leis/service/ICategoryBrandService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spzx-manager/src/main/java/com/leis/service/IProductSpecService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-manager/src/main/java/com/leis/service/IProductSpecService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spzx-manager/src/main/java/com/leis/service/impl/CategoryBrandServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-manager/src/main/java/com/leis/service/impl/CategoryBrandServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spzx-manager/src/main/java/com/leis/service/impl/ProductSpecServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-manager/src/main/java/com/leis/service/impl/ProductSpecServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spzx-manager/src/main/resources/mapper/product/CategoryBrandMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-manager/src/main/resources/mapper/product/CategoryBrandMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spzx-manager/src/main/resources/mapper/product/ProductSpecMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-manager/src/main/resources/mapper/product/ProductSpecMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-common/common-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-common/common-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-common/common-service/src/main/java/com/leis/config/Knife4jConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-common/common-service/src/main/java/com/leis/config/Knife4jConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-common/common-util/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-common/common-util/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-common/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,8 +40,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -61,38 +54,50 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="$PROJECT_DIR$/../../apache-maven-3.8.8" />
-        <option name="userSettingsFile" value="D:\apache-maven-3.8.8\conf\settings.xml" />
+        <option name="alwaysUpdateSnapshots" value="true" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../apache-maven-3.9.5" />
+        <option name="userSettingsFile" value="C:\apache-maven-3.9.5\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2YvoHT33mmYDaGZQGp7FEF4b1QV" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/IdeaWork/spzx/spzx-manager/src/main/resources&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.31300348&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;spring.boot&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;5c2cd6d551bd1bdcf55331f1ccb693a5&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "corretto-17",
+    "last_opened_file_path": "C:/IdeaWork/spzx/spzx-serivce/service-product/src/main/resources",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.31300348",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "spring.configuration.checksum": "5c2cd6d551bd1bdcf55331f1ccb693a5",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
-}</component>
+}]]></component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -101,6 +106,7 @@
       <recent name="com.leis.mapper" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\IdeaWork\spzx\spzx-serivce\service-product\src\main\resources" />
       <recent name="D:\IdeaWork\spzx\spzx-manager\src\main\resources" />
       <recent name="D:\IdeaWork\spzx\spzx-model\src\main\java\com\leis\model" />
     </key>
@@ -169,11 +175,27 @@
       <workItem from="1701917680854" duration="13041000" />
       <workItem from="1702000937363" duration="5542000" />
       <workItem from="1702258695667" duration="29912000" />
+      <workItem from="1702473560150" duration="4566000" />
+      <workItem from="1702478292742" duration="64000" />
+      <workItem from="1702478362609" duration="372000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-core" />
+    <option featureType="dependencySupport" implementationName="executable:docker" />
+    <option featureType="dependencySupport" implementationName="java:jakarta.validation:jakarta.validation-api" />
+    <option featureType="dependencySupport" implementationName="java:io.projectreactor:reactor-core" />
+    <option featureType="dependencySupport" implementationName="executable:kubectl" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.data:spring-data-commons" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.cloud:spring-cloud-context" />
+    <option featureType="dependencySupport" implementationName="java:io.minio:minio" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.boot:spring-boot" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-webmvc" />
+    <option featureType="dependencySupport" implementationName="java:org.projectlombok:lombok" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
