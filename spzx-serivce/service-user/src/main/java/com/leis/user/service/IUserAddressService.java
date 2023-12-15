@@ -7,4 +7,5 @@ import java.util.List;
 public interface IUserAddressService {
     List<UserAddress> findUserAddressList();
 
+    UserAddress getById(Long id);
 }

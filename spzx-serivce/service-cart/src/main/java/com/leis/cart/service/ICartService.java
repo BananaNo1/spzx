@@ -19,4 +19,5 @@ public interface ICartService {
 
     List<CartInfo> getAllCkecked();
 
+    void deleteChecked();
 }

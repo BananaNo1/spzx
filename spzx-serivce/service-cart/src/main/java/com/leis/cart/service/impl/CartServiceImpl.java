@@ -132,13 +132,21 @@ public class CartServiceImpl implements ICartService {
         Long userId = AuthContextUtil.getUserInfo().getId();
         String cartKey = getCartKey(userId);
         List<Object> objectList = redisTemplate.opsForHash().values(cartKey);       // 获取所有的购物项数据
-        if(!CollectionUtils.isEmpty(objectList)) {
-            List<CartInfo> cartInfoList = objectList.stream().map(cartInfoJSON -> JSON.parseObject(cartInfoJSON.toString(), CartInfo.class))
-                    .filter(cartInfo -> cartInfo.getIsChecked() == 1)
-                    .collect(Collectors.toList());
-            return cartInfoList ;
+        if (!CollectionUtils.isEmpty(objectList)) {
+            List<CartInfo> cartInfoList = objectList.stream().map(cartInfoJSON -> JSON.parseObject(cartInfoJSON.toString(), CartInfo.class)).filter(cartInfo -> cartInfo.getIsChecked() == 1).collect(Collectors.toList());
+            return cartInfoList;
         }
-        return new ArrayList<>() ;
+        return new ArrayList<>();
+    }
+
+    @Override
+    public void deleteChecked() {
+        Long userId = AuthContextUtil.getUserInfo().getId();
+        String cartKey = getCartKey(userId);
+        List<Object> objectList = redisTemplate.opsForHash().values(cartKey);
+        if (!CollectionUtils.isEmpty(objectList)) {
+            objectList.stream().map(cartInfoJSON -> JSON.parseObject(cartInfoJSON.toString(), CartInfo.class)).filter(cartInfo -> cartInfo.getIsChecked() == 1).forEach(cartInfo -> redisTemplate.opsForHash().delete(cartKey, String.valueOf(cartInfo.getSkuId())));
+        }
     }
 }
 
