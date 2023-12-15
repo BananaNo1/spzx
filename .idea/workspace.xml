@@ -5,34 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dbc139f0-a06a-4b0f-9c8c-bac02afc7dea" name="Changes" comment="update">
-      <change afterPath="$PROJECT_DIR$/spzx-serivce/service-order/src/main/java/com/leis/order/mapper/OrderInfoMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spzx-serivce/service-order/src/main/java/com/leis/order/mapper/OrderItemMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spzx-serivce/service-order/src/main/java/com/leis/order/mapper/OrderLogMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spzx-serivce/service-order/src/main/resources/mapper/order/OrderLogMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spzx-serivce/service-order/src/main/resources/mapper/order/orderInfoMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spzx-serivce/service-order/src/main/resources/mapper/order/orderItemMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spzx-service-client/serivce-user-client/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spzx-service-client/serivce-user-client/src/main/java/com/leis/feign/user/UserFeignClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spzx-service-client/service-cart-client/src/main/java/com/leis/feign/cart/CartFeignClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spzx-serivce/service-cart/src/main/java/com/leis/cart/controller/CartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-serivce/service-cart/src/main/java/com/leis/cart/controller/CartController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spzx-serivce/service-cart/src/main/java/com/leis/cart/service/ICartService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-serivce/service-cart/src/main/java/com/leis/cart/service/ICartService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spzx-serivce/service-cart/src/main/java/com/leis/cart/service/impl/CartServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-serivce/service-cart/src/main/java/com/leis/cart/service/impl/CartServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spzx-serivce/service-order/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-serivce/service-order/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spzx-serivce/service-order/src/main/java/com/leis/order/OrderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-serivce/service-order/src/main/java/com/leis/order/OrderApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spzx-serivce/service-order/src/main/java/com/leis/order/controller/OrderInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-serivce/service-order/src/main/java/com/leis/order/controller/OrderInfoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spzx-serivce/service-order/src/main/java/com/leis/order/service/IOrderInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-serivce/service-order/src/main/java/com/leis/order/service/IOrderInfoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spzx-serivce/service-order/src/main/java/com/leis/order/service/impl/OrderInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-serivce/service-order/src/main/java/com/leis/order/service/impl/OrderInfoServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spzx-serivce/service-user/src/main/java/com/leis/user/controller/UserAddressController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-serivce/service-user/src/main/java/com/leis/user/controller/UserAddressController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spzx-serivce/service-user/src/main/java/com/leis/user/mapper/UserAddressMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-serivce/service-user/src/main/java/com/leis/user/mapper/UserAddressMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spzx-serivce/service-user/src/main/java/com/leis/user/service/IUserAddressService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-serivce/service-user/src/main/java/com/leis/user/service/IUserAddressService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spzx-serivce/service-user/src/main/java/com/leis/user/service/impl/UserAddressServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-serivce/service-user/src/main/java/com/leis/user/service/impl/UserAddressServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spzx-serivce/service-user/src/main/resources/mapper/user/UserAddressMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-serivce/service-user/src/main/resources/mapper/user/UserAddressMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spzx-service-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-service-client/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spzx-service-client/service-cart-client/src/main/java/com.leis.feign.cart/CartFeignClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-manager/src/main/java/com/leis/ManagerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-manager/src/main/java/com/leis/ManagerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-manager/src/main/java/com/leis/config/WebMvcConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-manager/src/main/java/com/leis/config/WebMvcConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-manager/src/main/java/com/leis/controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-manager/src/main/java/com/leis/controller/CategoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-manager/src/main/java/com/leis/helper/MenuHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-manager/src/main/java/com/leis/helper/MenuHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-manager/src/main/java/com/leis/interceptor/LoginAuthInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-manager/src/main/java/com/leis/interceptor/LoginAuthInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-manager/src/main/java/com/leis/service/ICategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-manager/src/main/java/com/leis/service/ICategoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-manager/src/main/java/com/leis/service/impl/CategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-manager/src/main/java/com/leis/service/impl/CategoryServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-manager/src/main/java/com/leis/service/impl/SysMenuServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-manager/src/main/java/com/leis/service/impl/SysMenuServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-manager/src/main/java/com/leis/task/OrderStatisticsTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-manager/src/main/java/com/leis/task/OrderStatisticsTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-model/src/main/java/com/leis/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,29 +53,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "corretto-17",
-    "last_opened_file_path": "D:/IdeaWork/spzx/spzx-serivce/service-order/src/main/resources",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.31300348",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.ignored.files",
-    "spring.configuration.checksum": "8cb81c86d341293a5c1a6163e1a7695f"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/BaiduNetdiskDownload/代码/代码/后端/代码/spzx-parent&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.31300348&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.ignored.files&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;8cb81c86d341293a5c1a6163e1a7695f&quot;
   }
-}]]></component>
+}</component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -120,7 +105,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.UserApplication">
+  <component name="RunManager" selected="Spring Boot.ManagerApplication">
     <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="spzx-server-gateway" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.leis.gateway.GatewayApplication" />
@@ -188,11 +173,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.UserApplication" />
+        <item itemvalue="Spring Boot.ManagerApplication" />
         <item itemvalue="Spring Boot.ServiceApplication" />
+        <item itemvalue="Spring Boot.UserApplication" />
         <item itemvalue="Spring Boot.GatewayApplication" />
         <item itemvalue="Spring Boot.OrderApplication" />
-        <item itemvalue="Spring Boot.ManagerApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -215,7 +200,9 @@
       <workItem from="1702258695667" duration="31156000" />
       <workItem from="1702360945783" duration="7523000" />
       <workItem from="1702515400240" duration="28594000" />
-      <workItem from="1702606394201" duration="3673000" />
+      <workItem from="1702606394201" duration="8853000" />
+      <workItem from="1702625350809" duration="48000" />
+      <workItem from="1702625929845" duration="5178000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1702602076185</created>
@@ -248,11 +235,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/spzx-manager/src/main/java/com/leis/interceptor/LoginAuthInterceptor.java</url>
-          <line>28</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/spzx-serivce/service-user/src/main/java/com/leis/user/service/impl/UserInfoServiceImpl.java</url>
           <line>100</line>

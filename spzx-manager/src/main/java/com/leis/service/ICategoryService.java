@@ -7,9 +7,10 @@ import org.springframework.web.multipart.MultipartFile;
 import java.util.List;
 
 public interface ICategoryService {
-    List<Category> findByParentId(Long parentId);
+    List<Category> findCategoryList(Long parentId);
 
     void exportData(HttpServletResponse response);
 
     void importData(MultipartFile file);
+
 }

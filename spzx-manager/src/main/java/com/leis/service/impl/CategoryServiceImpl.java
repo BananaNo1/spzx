@@ -27,7 +27,7 @@ public class CategoryServiceImpl implements ICategoryService {
     private CategoryMapper categoryMapper;
 
     @Override
-    public List<Category> findByParentId(Long parentId) {
+    public List<Category> findCategoryList(Long parentId) {
         List<Category> categoryList = categoryMapper.selectByParentId(parentId);
         if (!CollectionUtils.isEmpty(categoryList)) {
             categoryList.forEach(item -> {
@@ -74,4 +74,5 @@ public class CategoryServiceImpl implements ICategoryService {
             throw new CustomException(ResultCodeEnum.DATA_ERROR);
         }
     }
+
 }

@@ -16,21 +16,18 @@ import java.util.Date;
 @Slf4j
 public class OrderStatisticsTask {
 
-
     @Autowired
     private OrderInfoMapper orderInfoMapper;
 
-
     @Autowired
     private OrderStatisticsMapper orderStatisticsMapper;
-
 
     @Scheduled(cron = "0 0 2 * * ?")
     public void orderTotalAmountStatistics() {
         String createTime = DateUtil.offsetDay(new Date(), -1).toString(new SimpleDateFormat("yyyy-MM-dd"));
         OrderStatistics orderStatistics = orderInfoMapper.selectOrderStatistics(createTime);
-        if(orderStatistics != null) {
-            orderStatisticsMapper.insert(orderStatistics) ;
+        if (orderStatistics != null) {
+            orderStatisticsMapper.insert(orderStatistics);
         }
     }
 }

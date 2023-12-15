@@ -10,7 +10,7 @@ public class MenuHelper {
     public static List<SysMenu> buildTree(List<SysMenu> sysMenuList) {
         List<SysMenu> trees = new ArrayList<>();
         for (SysMenu sysMenu : sysMenuList) {
-            if (sysMenu.getParentId().longValue() == 0) {
+            if (sysMenu.getParentId() == 0) {
                 trees.add(findChildren(sysMenu, sysMenuList));
             }
         }
@@ -18,7 +18,7 @@ public class MenuHelper {
     }
 
     public static SysMenu findChildren(SysMenu sysMenu, List<SysMenu> sysMenuList) {
-        sysMenu.setChildren(sysMenuList);
+        sysMenu.setChildren(new ArrayList<>());
         for (SysMenu menu : sysMenuList) {
             if (sysMenu.getId().longValue() == menu.getParentId().longValue()) {
                 sysMenu.getChildren().add(findChildren(menu, sysMenuList));

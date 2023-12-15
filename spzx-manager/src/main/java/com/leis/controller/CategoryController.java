@@ -21,9 +21,9 @@ public class CategoryController {
     private ICategoryService categoryService;
 
     @Operation(summary = "根据parentId获取下级节点")
-    @GetMapping(value = "/findByParentId/{parentId}")
+    @GetMapping(value = "/findCategoryList/{parentId}")
     public Result<List<Category>> findByParentId(@PathVariable Long parentId) {
-        List<Category> list = categoryService.findByParentId(parentId);
+        List<Category> list = categoryService.findCategoryList(parentId);
         return Result.build(list, ResultCodeEnum.SUCCESS);
     }
 

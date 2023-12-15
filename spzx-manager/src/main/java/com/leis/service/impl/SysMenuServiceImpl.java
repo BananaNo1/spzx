@@ -70,21 +70,22 @@ public class SysMenuServiceImpl implements ISysMenuService {
     @Override
     public List<SysMenuVo> findUserMenuList() {
         SysUser sysUser = AuthContextUtil.get();
-        Long userId = sysUser.getId();
+        Long userId = sysUser.getId();          // 获取当前登录用户的id
 
-        List<SysMenu> sysMenuList = sysMenuMapper.selectListByUserId(userId);
+        List<SysMenu> sysMenuList = sysMenuMapper.selectListByUserId(userId) ;
 
+        //构建树形数据
         List<SysMenu> sysMenuTreeList = MenuHelper.buildTree(sysMenuList);
         return this.buildMenus(sysMenuTreeList);
     }
 
     private List<SysMenuVo> buildMenus(List<SysMenu> menus) {
         List<SysMenuVo> sysMenuVoList = new LinkedList<SysMenuVo>();
-        for (SysMenu menu : menus) {
+        for (SysMenu sysMenu : menus) {
             SysMenuVo sysMenuVo = new SysMenuVo();
-            sysMenuVo.setTitle(menu.getTitle());
-            sysMenuVo.setName(menu.getComponent());
-            List<SysMenu> children = menu.getChildren();
+            sysMenuVo.setTitle(sysMenu.getTitle());
+            sysMenuVo.setName(sysMenu.getComponent());
+            List<SysMenu> children = sysMenu.getChildren();
             if (!CollectionUtils.isEmpty(children)) {
                 sysMenuVo.setChildren(buildMenus(children));
             }
