@@ -9,4 +9,7 @@ import java.util.List;
 public interface CategoryMapper {
 
     List<Category> findOneCategory();
+
+    List<Category> findAll();
+
 }

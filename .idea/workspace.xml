@@ -5,32 +5,94 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dbc139f0-a06a-4b0f-9c8c-bac02afc7dea" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/spzx-serivce/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spzx-serivce/service-product/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spzx-serivce/service-product/src/main/java/com/product/ProductApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spzx-serivce/service-product/src/main/java/com/product/controller/IndexController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spzx-serivce/service-product/src/main/java/com/product/mapper/CategoryMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spzx-serivce/service-product/src/main/java/com/product/mapper/ProductSkuMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spzx-serivce/service-product/src/main/java/com/product/service/ICategoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spzx-serivce/service-product/src/main/java/com/product/service/IProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spzx-serivce/service-product/src/main/java/com/product/service/impl/CategoryServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spzx-serivce/service-product/src/main/java/com/product/service/impl/ProductServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spzx-serivce/service-product/src/main/resources/application-dev.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spzx-serivce/service-product/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spzx-serivce/service-product/src/main/resources/logback-spring.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spzx-serivce/service-product/src/main/resources/mapper/CategoryMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spzx-serivce/service-product/src/main/resources/mapper/ProductSkuMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spzx-serivce/service-product/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spzx-serivce/service-user/src/main/resources/mapper/user/UserAddressMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spzx-serivce/service-user/src/main/resources/mapper/user/UserInfoMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-common/common-log/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-common/common-log/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spzx-common/common-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-common/common-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spzx-common/common-service/src/main/java/com/leis/config/Knife4jConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-common/common-service/src/main/java/com/leis/config/Knife4jConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-common/common-service/src/main/java/com/leis/annotation/EnableUserTokenFeignInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-common/common-service/src/main/java/com/leis/annotation/EnableUserTokenFeignInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-common/common-service/src/main/java/com/leis/annotation/EnableUserWebMvcConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-common/common-service/src/main/java/com/leis/annotation/EnableUserWebMvcConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-common/common-service/src/main/java/com/leis/config/UserWebMvcConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-common/common-service/src/main/java/com/leis/config/UserWebMvcConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-common/common-service/src/main/java/com/leis/interceptor/UserLoginAuthInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-common/common-service/src/main/java/com/leis/interceptor/UserLoginAuthInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-common/common-service/src/main/java/com/leis/interceptor/UserTokenFeignInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-common/common-service/src/main/java/com/leis/interceptor/UserTokenFeignInterceptor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spzx-common/common-util/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-common/common-util/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-common/common-util/src/main/java/com/leis/utils/AuthContextUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-common/common-util/src/main/java/com/leis/utils/AuthContextUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-common/common-util/src/main/java/com/leis/utils/HttpUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-common/common-util/src/main/java/com/leis/utils/HttpUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spzx-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-manager/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-manager/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-manager/src/main/java/com/leis/ManagerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-manager/src/main/java/com/leis/ManagerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-serivce/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-serivce/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-serivce/service-cart/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-serivce/service-cart/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-serivce/service-cart/src/main/java/com/leis/cart/CartApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-serivce/service-cart/src/main/java/com/leis/cart/CartApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-serivce/service-cart/src/main/java/com/leis/cart/controller/CartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-serivce/service-cart/src/main/java/com/leis/cart/controller/CartController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-serivce/service-cart/src/main/java/com/leis/cart/service/ICartService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-serivce/service-cart/src/main/java/com/leis/cart/service/ICartService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-serivce/service-cart/src/main/java/com/leis/cart/service/impl/CartServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-serivce/service-cart/src/main/java/com/leis/cart/service/impl/CartServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-serivce/service-cart/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-serivce/service-cart/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-serivce/service-cart/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-serivce/service-cart/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-serivce/service-cart/src/main/resources/logback-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-serivce/service-cart/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-serivce/service-order/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-serivce/service-order/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-serivce/service-order/src/main/java/com/leis/order/OrderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-serivce/service-order/src/main/java/com/leis/order/OrderApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-serivce/service-order/src/main/java/com/leis/order/controller/OrderInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-serivce/service-order/src/main/java/com/leis/order/controller/OrderInfoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-serivce/service-order/src/main/java/com/leis/order/service/IOrderInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-serivce/service-order/src/main/java/com/leis/order/service/IOrderInfoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-serivce/service-order/src/main/java/com/leis/order/service/impl/OrderInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-serivce/service-order/src/main/java/com/leis/order/service/impl/OrderInfoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-serivce/service-order/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-serivce/service-order/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-serivce/service-order/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-serivce/service-order/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-serivce/service-order/src/main/resources/logback-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-serivce/service-order/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-serivce/service-product/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-serivce/service-product/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-serivce/service-product/src/main/java/com/product/ProductApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-serivce/service-product/src/main/java/com/product/ProductApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-serivce/service-product/src/main/java/com/product/cache/RedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-serivce/service-product/src/main/java/com/product/cache/RedisConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-serivce/service-product/src/main/java/com/product/controller/BrandController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-serivce/service-product/src/main/java/com/product/controller/BrandController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-serivce/service-product/src/main/java/com/product/controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-serivce/service-product/src/main/java/com/product/controller/CategoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-serivce/service-product/src/main/java/com/product/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-serivce/service-product/src/main/java/com/product/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-serivce/service-product/src/main/java/com/product/mapper/BrandMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-serivce/service-product/src/main/java/com/product/mapper/BrandMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-serivce/service-product/src/main/java/com/product/mapper/CategoryMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-serivce/service-product/src/main/java/com/product/mapper/CategoryMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-serivce/service-product/src/main/java/com/product/mapper/ProductDetailsMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-serivce/service-product/src/main/java/com/product/mapper/ProductDetailsMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-serivce/service-product/src/main/java/com/product/mapper/ProductMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-serivce/service-product/src/main/java/com/product/mapper/ProductMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-serivce/service-product/src/main/java/com/product/mapper/ProductSkuMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-serivce/service-product/src/main/java/com/product/mapper/ProductSkuMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-serivce/service-product/src/main/java/com/product/service/IBrandService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-serivce/service-product/src/main/java/com/product/service/IBrandService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-serivce/service-product/src/main/java/com/product/service/ICategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-serivce/service-product/src/main/java/com/product/service/ICategoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-serivce/service-product/src/main/java/com/product/service/IProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-serivce/service-product/src/main/java/com/product/service/IProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-serivce/service-product/src/main/java/com/product/service/impl/BrandServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-serivce/service-product/src/main/java/com/product/service/impl/BrandServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-serivce/service-product/src/main/java/com/product/service/impl/CategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-serivce/service-product/src/main/java/com/product/service/impl/CategoryServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-serivce/service-product/src/main/java/com/product/service/impl/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-serivce/service-product/src/main/java/com/product/service/impl/ProductServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-serivce/service-product/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-serivce/service-product/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-serivce/service-product/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-serivce/service-product/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-serivce/service-product/src/main/resources/mapper/BrandMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-serivce/service-product/src/main/resources/mapper/BrandMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-serivce/service-product/src/main/resources/mapper/CategoryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-serivce/service-product/src/main/resources/mapper/CategoryMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-serivce/service-product/src/main/resources/mapper/ProductDetailsMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-serivce/service-product/src/main/resources/mapper/ProductDetailsMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-serivce/service-product/src/main/resources/mapper/ProductMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-serivce/service-product/src/main/resources/mapper/ProductMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-serivce/service-product/src/main/resources/mapper/ProductSkuMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-serivce/service-product/src/main/resources/mapper/ProductSkuMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-serivce/service-user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-serivce/service-user/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-serivce/service-user/src/main/java/com/leis/user/UserApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-serivce/service-user/src/main/java/com/leis/user/UserApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-serivce/service-user/src/main/java/com/leis/user/controller/SmsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-serivce/service-user/src/main/java/com/leis/user/controller/SmsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-serivce/service-user/src/main/java/com/leis/user/controller/UserAddressController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-serivce/service-user/src/main/java/com/leis/user/controller/UserAddressController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-serivce/service-user/src/main/java/com/leis/user/controller/UserInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-serivce/service-user/src/main/java/com/leis/user/controller/UserInfoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-serivce/service-user/src/main/java/com/leis/user/mapper/UserAddressMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-serivce/service-user/src/main/java/com/leis/user/mapper/UserAddressMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-serivce/service-user/src/main/java/com/leis/user/mapper/UserInfoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-serivce/service-user/src/main/java/com/leis/user/mapper/UserInfoMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-serivce/service-user/src/main/java/com/leis/user/service/ISmsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-serivce/service-user/src/main/java/com/leis/user/service/ISmsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-serivce/service-user/src/main/java/com/leis/user/service/IUserAddressService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-serivce/service-user/src/main/java/com/leis/user/service/IUserAddressService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-serivce/service-user/src/main/java/com/leis/user/service/IUserInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-serivce/service-user/src/main/java/com/leis/user/service/IUserInfoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-serivce/service-user/src/main/java/com/leis/user/service/impl/SmsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-serivce/service-user/src/main/java/com/leis/user/service/impl/SmsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-serivce/service-user/src/main/java/com/leis/user/service/impl/UserAddressServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-serivce/service-user/src/main/java/com/leis/user/service/impl/UserAddressServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-serivce/service-user/src/main/java/com/leis/user/service/impl/UserInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-serivce/service-user/src/main/java/com/leis/user/service/impl/UserInfoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-serivce/service-user/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-serivce/service-user/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-serivce/service-user/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-serivce/service-user/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-serivce/service-user/src/main/resources/logback-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-serivce/service-user/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-serivce/service-user/src/main/resources/mapper/UserAddressMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-serivce/service-user/src/main/resources/mapper/UserInfoMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-server-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-server-gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-server-gateway/src/main/java/com/leis/gateway/GatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-server-gateway/src/main/java/com/leis/gateway/GatewayApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-server-gateway/src/main/java/com/leis/gateway/config/RedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-server-gateway/src/main/java/com/leis/gateway/config/RedisConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-server-gateway/src/main/java/com/leis/gateway/filter/AutoGlobalFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-server-gateway/src/main/java/com/leis/gateway/filter/AutoGlobalFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-server-gateway/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-server-gateway/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-server-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-server-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-server-gateway/src/main/resources/logback-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-server-gateway/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-service-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-service-client/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-service-client/service-cart-client/src/main/java/com.leis.feign.cart/CartFeignClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-service-client/service-cart-client/src/main/java/com.leis.feign.cart/CartFeignClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-service-client/service-product-client/src/main/java/com/leis/feign/product/ProductFeignClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-service-client/service-product-client/src/main/java/com/leis/feign/product/ProductFeignClient.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,13 +102,15 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
+        <option value="AnnotationType" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -54,15 +118,11 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="alwaysUpdateSnapshots" value="true" />
-        <option name="mavenHome" value="$PROJECT_DIR$/../../apache-maven-3.9.5" />
-        <option name="userSettingsFile" value="C:\apache-maven-3.9.5\conf\settings.xml" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../apache-maven-3.8.8" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.8.8\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 5
-}</component>
   <component name="ProjectId" id="2YvoHT33mmYDaGZQGp7FEF4b1QV" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -78,24 +138,17 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "corretto-17",
-    "last_opened_file_path": "C:/IdeaWork/spzx/spzx-serivce/service-product/src/main/resources",
+    "last_opened_file_path": "D:/IdeaWork/spzx/spzx-serivce/service-order/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.31300348",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "spring.configuration.checksum": "5c2cd6d551bd1bdcf55331f1ccb693a5",
-    "vue.rearranger.settings.migration": "true"
-  },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
-    ]
+    "settings.editor.selected.configurable": "reference.settings.project.maven.archetype.catalogs",
+    "spring.configuration.checksum": "92e922b753cb273187eccfe73a602e0c"
   }
 }]]></component>
   <component name="ReactorSettings">
@@ -106,11 +159,14 @@
       <recent name="com.leis.mapper" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\IdeaWork\spzx\spzx-serivce\service-product\src\main\resources" />
+      <recent name="D:\IdeaWork\spzx\spzx-serivce\service-order\src\main\resources" />
+      <recent name="D:\IdeaWork\spzx\spzx-serivce\service-cart\src\main\resources" />
+      <recent name="D:\IdeaWork\spzx\spzx-serivce\service-user\src\main\resources" />
+      <recent name="D:\IdeaWork\spzx\spzx-server-gateway\src\main\resources" />
       <recent name="D:\IdeaWork\spzx\spzx-manager\src\main\resources" />
-      <recent name="D:\IdeaWork\spzx\spzx-model\src\main\java\com\leis\model" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IdeaWork\spzx\spzx-serivce\service-user\src\main\resources\mapper\user" />
       <recent name="D:\IdeaWork\spzx\spzx-manager\src\main\resources\mapper\role" />
       <recent name="D:\IdeaWork\spzx\spzx-manager\src\main\resources\mapper\user" />
       <recent name="D:\IdeaWork\spzx\spzx-manager\src\main\resources\mapper\menu" />
@@ -124,13 +180,39 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ManagerApplication">
+  <component name="RunManager" selected="Spring Boot.UserApplication">
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="spzx-server-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.leis.gateway.GatewayApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leis.gateway.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ManagerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="spzx-manager" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.leis.ManagerApplication" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.leis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="service-order" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.leis.order.OrderApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leis.order.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,10 +233,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="service-user" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.leis.user.UserApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leis.user.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.ManagerApplication" />
+        <item itemvalue="Spring Boot.UserApplication" />
         <item itemvalue="Spring Boot.ServiceApplication" />
+        <item itemvalue="Spring Boot.GatewayApplication" />
+        <item itemvalue="Spring Boot.OrderApplication" />
+        <item itemvalue="Spring Boot.ManagerApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -174,28 +272,14 @@
       <workItem from="1701746101054" duration="1207000" />
       <workItem from="1701917680854" duration="13041000" />
       <workItem from="1702000937363" duration="5542000" />
-      <workItem from="1702258695667" duration="29912000" />
-      <workItem from="1702473560150" duration="4566000" />
-      <workItem from="1702478292742" duration="64000" />
-      <workItem from="1702478362609" duration="372000" />
+      <workItem from="1702258695667" duration="31156000" />
+      <workItem from="1702360945783" duration="7523000" />
+      <workItem from="1702515400240" duration="24532000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="UnknownFeatures">
-    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-core" />
-    <option featureType="dependencySupport" implementationName="executable:docker" />
-    <option featureType="dependencySupport" implementationName="java:jakarta.validation:jakarta.validation-api" />
-    <option featureType="dependencySupport" implementationName="java:io.projectreactor:reactor-core" />
-    <option featureType="dependencySupport" implementationName="executable:kubectl" />
-    <option featureType="dependencySupport" implementationName="java:org.springframework.data:spring-data-commons" />
-    <option featureType="dependencySupport" implementationName="java:org.springframework.cloud:spring-cloud-context" />
-    <option featureType="dependencySupport" implementationName="java:io.minio:minio" />
-    <option featureType="dependencySupport" implementationName="java:org.springframework.boot:spring-boot" />
-    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-webmvc" />
-    <option featureType="dependencySupport" implementationName="java:org.projectlombok:lombok" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -215,6 +299,21 @@
           <url>file://$PROJECT_DIR$/spzx-manager/src/main/java/com/leis/interceptor/LoginAuthInterceptor.java</url>
           <line>28</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spzx-serivce/service-user/src/main/java/com/leis/user/service/impl/UserInfoServiceImpl.java</url>
+          <line>100</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spzx-common/common-service/src/main/java/com/leis/interceptor/UserLoginAuthInterceptor.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spzx-serivce/service-user/src/main/java/com/leis/user/controller/UserInfoController.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

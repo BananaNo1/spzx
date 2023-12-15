@@ -1,5 +1,6 @@
 package com.product.mapper;
 
+import com.leis.model.dto.h5.ProductSkuDto;
 import com.leis.model.entity.product.ProductSku;
 import org.apache.ibatis.annotations.Mapper;
 
@@ -11,4 +12,9 @@ public interface ProductSkuMapper {
 
     List<ProductSku> findProductSkuBySale();
 
+    List<ProductSku> findByPage(ProductSkuDto productSkuDto);
+
+    ProductSku getById(Long skuId);
+
+    List<ProductSku> findByProductId(Long productId);
 }

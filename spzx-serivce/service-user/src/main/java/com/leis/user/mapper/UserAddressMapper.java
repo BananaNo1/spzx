@@ -1,4 +1,4 @@
-package com.leis.cart.mapper;
+package com.leis.user.mapper;
 
 import com.leis.model.entity.user.UserAddress;
 import org.apache.ibatis.annotations.Mapper;

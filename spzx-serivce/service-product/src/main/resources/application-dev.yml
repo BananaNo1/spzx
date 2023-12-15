@@ -16,6 +16,11 @@ spring:
     username: root
     password: root
 
+  data:
+    redis:
+      host: localhost
+      port:
+
 
 mybatis:
   config-location: classpath:mybatis-config.xml

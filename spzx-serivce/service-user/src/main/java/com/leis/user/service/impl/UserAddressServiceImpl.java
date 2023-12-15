@@ -1,8 +1,8 @@
-package com.leis.cart.service.impl;
+package com.leis.user.service.impl;
 
-import com.leis.cart.mapper.UserAddressMapper;
-import com.leis.cart.service.IUserAddressService;
 import com.leis.model.entity.user.UserAddress;
+import com.leis.user.mapper.UserAddressMapper;
+import com.leis.user.service.IUserAddressService;
 import com.leis.utils.AuthContextUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
